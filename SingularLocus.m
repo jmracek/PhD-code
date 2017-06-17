@@ -1,4 +1,7 @@
 function [ A ] = SingularLocus()
+
+%This function plots the set of singular values of the moment map \mu: \Omega SU(2) \to Lie(TxS1).  It is the collection of all straight lines joining
+%the pairs of points of the form (n,n^2/2)
 %
 N = 30;
 syms q;
