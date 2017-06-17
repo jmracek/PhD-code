@@ -1,6 +1,7 @@
 function [ mu2 ] = NormSquared( gamma )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%The norm squared of the moment map is a function \Omega SU(2) \to \mathbb{R}.  This function computes the value of the norm squared at the loop \gamma
+
+%Input: \gamma is a cell array of 2x2 matrices storing the pointwise values of the loop
 
 t = [0:2*pi/(length(gamma)-1):2*pi];
 E = 0;
