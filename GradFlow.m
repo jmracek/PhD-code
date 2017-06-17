@@ -1,6 +1,7 @@
 function tube = GradFlow(gamma)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%This function inputs a loop \gamma \in \Omega SU(2) and computes its flow under the gradient of the norm squared of the moment map for the TxS1 action
+%Here, \gamma is an array of 2x2 matrices storing the pointwise values of the loop
+%The gradient flow equations are solved numerically using the implicit Euler method
 
 %INPUT: gamma is a cell array of matrices representing a path in SU(2).  Each cell is the value of the path at a particular time interval between 0 and 2pi
 
