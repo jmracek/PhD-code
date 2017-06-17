@@ -1,6 +1,7 @@
 function [ Loop ] = AlmostComplex_v3(X,gamma)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%The based loop group \OmegaSU(2) is a complex manifold (in fact it is Kahler).  
+%Roughly, the complex structure works by multiplying the positive Fourier coefficients of a 'tangent loop' by i, and the negative ones by -i.
+% This function inputs a loop \gamma \in \OmegaSU(2), and a section X \in \gamma^* T SU(2)
 
 %Number of Fourier coefficients
 N = 40;
