@@ -1,5 +1,5 @@
 function [B] = FourierLoop(ap,bp)
-
+%This function is used to compute the Fouri
 N = 6;
 n = 1;
 m = 1;
@@ -29,9 +29,6 @@ A(length(A),length(A)) = 1i*2*n/m+ap;
 
 b = zeros(length(A),1);
 coefs = A\b
-
-alphak = zeros((length(A)-1)/2,1);
-alphak = zeros((length(A)-1)/2,1);
 
 t = [0:0.001:2*pi];
 
